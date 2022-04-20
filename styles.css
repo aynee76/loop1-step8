@@ -1,0 +1,149 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600;700;800;900&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-color: rgb(243, 217, 227);
+    font-family: roboto;
+}
+
+main {
+    display: flex;
+    flex-direction: row;
+    height: 550px;
+    width: 900px;
+    background-color: darksalmon;
+    margin: 3rem 15rem;
+}
+
+.part-1 {
+    width: 300px;
+    height: 550px;
+    background-image: url(/img/background.jpg);
+    background-size: cover;
+    padding: 2rem 2rem;
+}
+
+.back {
+    display: flex;
+    align-items: center;
+    column-gap: 5px;
+    font-size: 10px;
+    text-transform: uppercase;
+    opacity: 60%;
+}
+
+.back:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.arr {
+    height: 16px;
+    width: 16px;
+}
+
+.preview {
+    height: 16px;
+    width: 16px;
+}
+
+.part-2 {
+    width: 600px;
+    background-color: white;
+    padding: 2rem 2rem;
+}
+
+nav {
+    text-transform: uppercase;
+    display: flex;
+    justify-content: flex-end;
+    column-gap: 20px;
+    font-size: 10px;
+    font-weight: bold;
+}
+
+.navs {
+    opacity: 60%;
+}
+
+.navs:hover {
+    opacity: 100%;
+    cursor: pointer;
+}
+
+.part-3 {
+    margin: 5rem 4rem;
+}
+
+.big {
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    font-size: 55px;
+    font-family: 'Playfair Display';
+}
+
+.line {
+    /* display: block; */
+    height: 3px;
+    width: 130px;
+    background-color: black;
+    margin-top: 6rem;
+    margin-left: -5rem;
+}
+
+.name {
+    font-size: 16px; 
+    margin-top: 1rem;
+    font-family: 'Playfair Display';
+}
+
+.names {
+    font-weight: bold;
+}
+
+.container {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+}
+
+
+.bg {
+    height: 90px;
+    width: 150px;
+    background-image: url(/img/preview.jpg);
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 2rem;
+    cursor: pointer;
+}
+
+.pla {
+    border: 4px solid white;
+    background-color: white;
+    border-radius: 50%;
+    
+}
+
+.view {
+    display: flex;
+    align-items: center;
+    font-size: 10px;
+    font-weight: 400;
+    text-transform: uppercase;
+    margin-top: 1rem;
+    cursor: pointer;
+}
+
+.word {
+    font-size: 14px;
+    line-height: 25px;
+    width: 200px;
+    margin-top: 2rem;
+} 
